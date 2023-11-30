@@ -1,3 +1,5 @@
+// Example usage: deno task setup 1
+
 if (Deno.args.length !== 1) {
   console.error("Please provide a day number.");
   Deno.exit(1);
