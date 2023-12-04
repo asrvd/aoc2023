@@ -7,7 +7,7 @@ let sum = 0;
 input.forEach((line, r) => {
   line.forEach((char, c) => {
     if (char === "*") {
-      const adjacentNumbers = new Set<number>();
+      const adjacentNumbers = new Set<number>(); // need to use a set to avoid duplicates
 
       for (let i = r - 1; i < r + 2; i++) {
         for (let j = c - 1; j < c + 2; j++) {
